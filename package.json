@@ -1,0 +1,28 @@
+{
+  "name": "PUOrder",
+  "version": "0.0.1",
+  "description": "PUOrder structure",
+  "scripts": {
+    "test": "node ./node_modules/test-machinepack-mocha/bin/testmachinepack-mocha.js"
+  },
+  "keywords": [
+    "order",
+    "machines",
+    "machinepack"
+  ],
+  "author": "PaidUpTeam",
+  "license": "PaidUp",
+  "dependencies": {
+    "machine": "^10.0.0"
+  },
+  "devDependencies": {
+    "test-machinepack-mocha": "^2.0.0"
+  },
+  "machinepack": {
+    "friendlyName": "PUOrder",
+    "machineDir": "machines/",
+    "machines": [
+      "product-price"
+    ]
+  }
+}
