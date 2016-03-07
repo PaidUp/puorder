@@ -4,19 +4,17 @@
   machinepack-calculations
 </h1>
 
-### [Docs](http://node-machine.org/PUOrder) &nbsp; [Browse other machines](http://node-machine.org/machinepacks) &nbsp;  [FAQ](http://node-machine.org/implementing/FAQ)  &nbsp;  [Newsgroup](https://groups.google.com/forum/?hl=en#!forum/node-machine)
-
 Order Structure
 
 
-## Installation &nbsp; [![NPM version](https://badge.fury.io/js/machinepack-product-price-calculations.svg)](http://badge.fury.io/js/machinepack-schedulegenerate) [![Build Status](https://travis-ci.org/mikermcneil/machinepack-schedulegenerate.png?branch=master)](https://travis-ci.org/mikermcneil/machinepack-schedulegenerate)
+## Installation &nbsp;
 
 ```sh
 $ npm install -g machinepack
 ```
 
 ```sh
-$ npm install machinepack-calculations
+$ npm install machinepack-calculations (TODO)
 ```
 
 ##Info
@@ -33,11 +31,15 @@ $ npm test
 
 ##Exec
 
-### Customer pay option1: processing no, paidup yes
+### Order structure
 ```sh
-$ mp exec product-price
+$ mp exec order
 ```
 
+### Order validation
+```sh
+$ mp exec order-validation
+```
 
 ## Usage
 

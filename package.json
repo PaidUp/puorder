@@ -19,10 +19,10 @@
     "test-machinepack-mocha": "^2.0.0"
   },
   "machinepack": {
-    "friendlyName": "PUOrder",
+    "friendlyName": "PUOrders",
     "machineDir": "machines/",
     "machines": [
-      "product-price"
+      "order", "order-validation"
     ]
   }
 }
